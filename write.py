@@ -2,7 +2,7 @@ import configparser
 import psycopg2 as psql
 import logging
 from logs import init_logger
-from read import read
+from readjson import read
 import json
 
 #def connection_start():
