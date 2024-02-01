@@ -6,6 +6,7 @@ from readjson import read
 import json
 
 #def connection_start():
+#Fetching authentication details from configuration ini file using configparser
 cf = configparser.ConfigParser()
 cf.read("C://Users//bhave//PycharmProjects//pythonProject1//venv//config.ini")
 conn = psql.connect(
